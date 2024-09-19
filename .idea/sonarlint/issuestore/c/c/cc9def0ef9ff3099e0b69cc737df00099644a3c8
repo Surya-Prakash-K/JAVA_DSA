@@ -1,0 +1,9 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(´®÷ı8¹Ç§Ò1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8¹Ç§Ò1
+v
+java:S3012="YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(îû±ğ8 ¹Ç§Ò1
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8¥¹Ç§Ò1
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8¦¹Ç§Ò1

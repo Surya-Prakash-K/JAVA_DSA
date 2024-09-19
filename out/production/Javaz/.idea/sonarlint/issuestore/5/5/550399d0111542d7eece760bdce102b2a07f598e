@@ -1,0 +1,22 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¾Ÿşıÿÿÿÿ8Á¾Ç§Ò1
+r	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”©ë¾úÿÿÿÿ8Á¾Ç§Ò1
+r	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÊèØşÿÿÿÿ8Á¾Ç§Ò1
+r	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÊèØşÿÿÿÿ8Á¾Ç§Ò1
+r	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÊèØşÿÿÿÿ8Á¾Ç§Ò1
+r	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İÒ»áøÿÿÿÿ8Â¾Ç§Ò1
+€
+java:S1488%"^Immediately return this expression instead of assigning it to the temporary variable "result".(ğ–•æøÿÿÿÿ8Ã¾Ç§Ò1
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ8Ã¾Ç§Ò1
+U
+java:S1854	"8Remove this useless assignment to local variable "arr2".(Õ‚¾å8¿Ç§Ò1
+F
+java:S1481	")Remove this unused "arr2" local variable.(Õ‚¾å8¢¿Ç§Ò1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ8¢¿Ç§Ò1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Èòö8¤¿Ç§Ò1
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¾Ÿşıÿÿÿÿ8¥¿Ç§Ò1
+Z	java:S106;"9Replace this use of System.out or System.err by a logger.(í Âõøÿÿÿÿ8©¿Ç§Ò1
+R
+java:S1751R"5Remove this "break" statement or make it conditional.(›ûä·8¯¿Ç§Ò1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8°¿Ç§Ò1

@@ -1,0 +1,9 @@
+
+€
+java:S4165	"cRemove this useless assignment; "nums1" already holds the assigned value along all execution paths.(ŞÚÛÒ8ú°ÑÔ1
+E
+java:S1659"#Declare "nums2" on a separate line.(•¤üéúÿÿÿÿ8ı°ÑÔ1
+A
+java:S1659"Declare "n" on a separate line.(²ÃêÌûÿÿÿÿ8ı°ÑÔ1
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(¢¬Ï²şÿÿÿÿ8ş°ÑÔ1
