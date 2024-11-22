@@ -3,11 +3,11 @@ package Interview;
 
 import java.util.*;
 import java.util.function.Function;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 class Test {
-    protected void display(){
+    static protected void display(){
         System.out.println("Hello");
     }
 }
@@ -16,7 +16,6 @@ public class Streams {
 
 
     public static void main(String[] args) {
-
         Map<String, Integer> map  = new HashMap<>();
         map.put("c",3);
         map.put("b",2);
@@ -53,6 +52,44 @@ public class Streams {
                 .collect(Collectors.joining());
         System.out.println("Unique ==== "+ unique);
 
+        String uniqueCharacters = str.chars()
+                .mapToObj(item -> (char) item)
+                .distinct()
+                .map(String::valueOf)
+                .collect(Collectors.joining());
+
+        System.out.println("==== Unique ===="+uniqueCharacters);
+
+        List<Employee> employeeList = new ArrayList<>();
+        employeeList.add(new Employee("arun",24,10000));
+        employeeList.add(new Employee("siva",25,20000));
+        employeeList.add(new Employee("kumar",26,30000));
+        Optional<Employee> optionalEmployee = employeeList
+                .stream()
+                .sorted(Comparator.comparingDouble(Employee::getSalary).reversed())
+                .skip(1)
+                .findFirst();
+
+        System.out.println("===============Second Highest salary"+optionalEmployee.get());
+
+        Optional<Employee> optionalEmployee1 =
+                employeeList.stream().max(Comparator.comparingDouble(Employee::getSalary));
+        System.out.println("=========="+optionalEmployee1);
+
+
+        LinkedList<String> list = new LinkedList<>();
+        list.add("");
+
+        System.out.println(reverse("surya"));
+
+
+
+    }
+
+    public static String reverse(String string) {
+        return Stream.of(string)
+                .map(word->new StringBuilder(word).reverse())
+                .collect(Collectors.joining(""));
     }
 
     public static List<Integer> findOdd(List<Integer> integers){
@@ -62,4 +99,21 @@ public class Streams {
     public static List<Integer> findEven(List<Integer> integers){
         return integers.stream().filter( e -> e%2 == 0).collect(Collectors.toList());
     };
+
+    public static int birthdayCakeCandles(List<Integer> candles) {
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for (Integer num : candles) {
+            if(map.containsKey(num)){
+                map.put(num, map.get(num)+1);
+            }else{
+                map.put(num, 1);
+            }
+        }
+
+        Optional<Integer> largest =  map.entrySet().stream().max(Map.Entry.comparingByKey())
+                .map(Map.Entry::getValue);
+
+        return largest.get();
+
+    }
 }
