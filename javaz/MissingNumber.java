@@ -2,7 +2,7 @@ package javaz;
 
 public class MissingNumber {
     public static void main(String[] args) {
-        int[] arr = {3,0,1};
+        int[] arr = {3,0,1,3};
         int res = findMissingNumber(arr);
         System.out.println(res);
     }

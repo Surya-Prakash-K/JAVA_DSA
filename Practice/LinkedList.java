@@ -106,10 +106,10 @@ public class LinkedList {
 
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
-        System.out.println("Initial Size ====> "+ list.size);
-        list.addFirst(2);
-        list.addLast(4);
-        list.display();
+//        System.out.println("Initial Size ====> "+ list.size);
+//        list.addFirst(2);
+//        list.addLast(4);
+//        list.display();
         list.insert(0,9);
         list.display();
         System.out.println("Final Size ====> "+ list.size);

@@ -1,5 +1,8 @@
 package javaz;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.StringJoiner;
 
 public class Queue {
@@ -17,5 +20,9 @@ public class Queue {
 
     public static void main(String[] args) {
         StringJoiner joinStrings = new StringJoiner(",", "[", "]");
+        Deque<Integer> deque = new ArrayDeque<>();
+        java.util.Queue<String> queue = new LinkedList<>();
+
+
     }
 }
